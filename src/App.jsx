@@ -16,6 +16,9 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <div className='flex justify-center -mt-16 mb-10'>
+          <div className='absolute w-32 h-32 rounded-full bg-red-600'></div>
+        </div>
         <Education />
         <div className='flex justify-center mb-16'>
           <div className='absolute w-32 h-32 rounded-full bg-red-600'></div>

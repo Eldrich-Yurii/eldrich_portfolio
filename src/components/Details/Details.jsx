@@ -10,7 +10,7 @@ import { SiGmail } from "react-icons/si";
 const Details = () => {
   return (
     <>
-      <div className="mt-8 h-screen bg-gray-300">
+      <div className="mt-8 h-screen bg-gray-300" id="details">
         {/* lets connect and social accounts */}
         <div className="absolute mt-[200px]">
           <div className="flex -ml-20 items-center rotate-90 w-[250px]">
@@ -20,23 +20,41 @@ const Details = () => {
             <div className="h-1 w-20" style={{ background: "#282828" }}></div>
           </div>
           <div className="ml-[33px] mt-32">
-            <FaFacebookSquare
-              className="text-2xl mb-5"
-              style={{ color: "#E73C37" }}
-            />
-            <AiFillInstagram
-              className="text-2xl mb-5"
-              style={{ color: "#E73C37" }}
-            />
-            <FaLinkedin
-              className="text-2xl mb-5"
-              style={{ color: "#E73C37" }}
-            />
-            <FaGithubSquare
-              className="text-2xl mb-5"
-              style={{ color: "#E73C37" }}
-            />
-            <SiGmail className="text-2xl mb-5" style={{ color: "#E73C37" }} />
+            <a
+              href="https://www.facebook.com/eldrich.jyuri.sumabat.22"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookSquare className="text-2xl mb-5  text-red-600 hover:text-gray-800" />
+            </a>
+            <a
+              href="https://instagram.com/dricht_?igshid=MzMyNGUyNmU2YQ=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillInstagram className="text-2xl mb-5  text-red-600 hover:text-gray-800" />
+            </a>
+            <a
+              href="www.linkedin.com/in/eldrich-jyuri-sumabat"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="text-2xl mb-5  text-red-600 hover:text-gray-800" />
+            </a>
+            <a
+              href="https://github.com/Eldrich-Yurii"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare className="text-2xl mb-5  text-red-600 hover:text-gray-800" />
+            </a>
+            <a
+              href="mailto:eldrichjyuris@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiGmail className="text-2xl mb-5  text-red-600 hover:text-gray-800" />
+            </a>
           </div>
         </div>
         <div className="grid grid-cols-2">
@@ -70,21 +88,14 @@ const Details = () => {
                 className="text-xl font-montserrat font-medium leading-loose"
                 style={{ color: "#282828" }}
               >
-                <span className="font-semibold">AGE :</span> 21 <br />
-                <span className="font-semibold">DATE OF BIRTH :</span> OCTOBER
-                22, 2002 <br />
-                <span className="font-semibold">
-                  {" "}
-                  NATIONALITY :
-                </span> FILIPINO <br />
-                <span className="font-semibold"> GENDER :</span> MALE <br />
-                <span className="font-semibold"> LANGUAGE :</span> TAGALOG,
-                ENGLISH <br />
-                <span className="font-semibold">MBTI :</span> INFJ-T <br />
-                <span className="font-semibold">CONTACT NUMBER :</span>{" "}
-                (+63)9810238115 <br />
-                <span className="font-semibold">ADDRESS :</span> STA. MARIA
-                BULACAN
+                <span className="font-bold">AGE :</span> 21 <br />
+                <span className="font-bold">DATE OF BIRTH :</span> OCTOBER 22, 2002 <br />
+                <span className="font-bold">NATIONALITY :</span> FILIPINO <br />
+                <span className="font-bold"> GENDER :</span> MALE <br />
+                <span className="font-bold"> LANGUAGE :</span> TAGALOG, ENGLISH <br />
+                <span className="font-bold">MBTI :</span>INFJ-T <br />
+                <span className="font-bold">CONTACT NUMBER :</span> (+63)9810238115 <br />
+                <span className="font-bold">ADDRESS :</span> STA. MARIA BULACAN
               </p>
             </div>
           </div>

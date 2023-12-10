@@ -6,8 +6,8 @@ import Pic3 from './assets/johnJ.webp';
 const Education = () => {
   return (
     <>
-    <div className='p-10 px-14'>
-        <h1 className='font-montserrat font-semibold text-4xl text-center'>EDUCATION <span style={{color:"#e73c37"}}>ATTAINMENT</span></h1>
+    <div className='pt-48 px-14' id="education">
+        <h1 className='font-montserrat font-semibold text-4xl text-center'>EDUCATIONAL <span style={{color:"#e73c37"}}>ATTAINMENT</span></h1>
       {/* KODEGO */}
       <div className='grid grid-cols-2 items-center pt-20'>
         <div className='w-[700px] pl-36 grid gap-2'>

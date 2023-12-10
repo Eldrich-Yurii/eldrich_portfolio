@@ -4,7 +4,7 @@ import { BiPlusMedical } from "react-icons/bi";
 const Skills = () => {
   return (
     <>
-      <div className="h-screen" style={{ background: "#c8c7c7" }}>
+      <div className="h-screen" id="skill" style={{ background: "#c8c7c7" }}>
         <div
           className="absolute mt-12 h-1 w-20"
           style={{ background: "#E73C37" }}
@@ -14,18 +14,9 @@ const Skills = () => {
         </p>
         {/* xxx */}
         <div className="absolute flex rotate-90 mt-32 ml-4">
-          <BiPlusMedical
-            className="rotate-45 text-2xl"
-            style={{ color: "#e73c37" }}
-          />
-          <BiPlusMedical
-            className="rotate-45 text-2xl"
-            style={{ color: "#e73c37" }}
-          />
-          <BiPlusMedical
-            className="rotate-45 text-2xl"
-            style={{ color: "#e73c37" }}
-          />
+          <BiPlusMedical className="rotate-45 text-2xl text-red-600" />
+          <BiPlusMedical className="rotate-45 text-2xl text-red-600" />
+          <BiPlusMedical className="rotate-45 text-2xl text-red-600" />
         </div>
         {/* Cards of skills */}
         <div className="absolute mt-24 ml-24">
@@ -34,42 +25,21 @@ const Skills = () => {
               className="w-[480px] bg-gray-200 p-8 px-10 drop-shadow-lg"
               style={{ background: "#D9D9D9" }}
             >
-              <p
-                className="font-medium text-lg pb-4 font-montserrat"
-                style={{ color: "#e73c37" }}
-              >
+              <p className="font-medium text-lg pb-4 font-montserrat">
                 FRONTEND DEVELOPMENT
               </p>
               <ul className="text-medium font-montserrat font-medium">
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">HTML</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">CSS</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">BOOTSTRAP</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">TAILWIND</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">JAVASCRIPT</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">REACT JS</li>
               </ul>
             </div>
@@ -78,22 +48,13 @@ const Skills = () => {
               className="w-[480px] h-[150px] bg-gray-200 p-8 px-10 drop-shadow-lg"
               style={{ background: "#D9D9D9" }}
             >
-              <p
-                className="font-medium text-lg pb-4 font-montserrat"
-                style={{ color: "#e73c37" }}
-              >
+              <p className="font-medium text-lg pb-4 font-montserrat">
                 GRAPHIC DESIGN
               </p>
               <ul className="text-medium font-montserrat font-medium">
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">UI/UX DESIGN</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">LOGO</li>
               </ul>
             </div>
@@ -104,27 +65,15 @@ const Skills = () => {
               className="w-[480px] bg-gray-200 p-8 px-10 drop-shadow-lg"
               style={{ background: "#D9D9D9" }}
             >
-              <p
-                className="font-medium text-lg pb-4 font-montserrat"
-                style={{ color: "#e73c37" }}
-              >
+              <p className="font-medium text-lg pb-4 font-montserrat">
                 BACKEND DEVELOPMENT
               </p>
               <ul className="text-medium font-montserrat font-medium">
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">LARAVEL</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">NODE JS</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">EXPRESS JS</li>
               </ul>
             </div>
@@ -133,61 +82,39 @@ const Skills = () => {
               className="-mt-[100px] w-[480px] bg-gray-200 p-8 px-10 drop-shadow-lg"
               style={{ background: "#D9D9D9" }}
             >
-              <p
-                className="font-medium text-lg pb-4 font-montserrat"
-                style={{ color: "#e73c37" }}
-              >
-                TOOLS
-              </p>
+              <p className="font-medium text-lg pb-4 font-montserrat">TOOLS</p>
               <ul className="text-medium font-montserrat font-medium">
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">VISUAL STUDIO CODE</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">POSTMAN</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">XAMPP</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">DBEAVER</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">FIGMA</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">CANVA</li>
-                <BiPlusMedical
-                  className="absolute rotate-45 text-sm ml-4 mt-1"
-                  style={{ color: "#e73c37" }}
-                />
+                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">ADOBE ILLUSTRATOR</li>
               </ul>
             </div>
           </div>
         </div>
         <div className="absolute mt-[535px] ml-8">
-            <div className="">
-                <p className="relative -ml-9 -mt-6 rotate-90 font-montserrat font-semibold">WEB DESIGN &</p>
-                <p className="absolute ml-10 mt-9 font-montserrat font-bold" style={{ color: "#e73c37" }}>DEVELOPMENT</p>
-            </div>
+          <div className="">
+            <p className="relative -ml-9 -mt-6 rotate-90 font-montserrat font-semibold">
+              WEB DESIGN &
+            </p>
+            <p className="absolute ml-10 mt-9 font-montserrat font-bold text-red-600">
+              DEVELOPMENT
+            </p>
+          </div>
         </div>
         <p
-          className="absolute text-center tracking-wider text-[150px] font-montserrat font-black w-[619px] -rotate-90 mt-[197px] ml-[927px]"
-          style={{ background: "#e73c37", color: "#c8c7c7" }}
+          className="absolute text-center tracking-wider bg-red-600 text-[150px] font-montserrat font-black w-[619px] -rotate-90 mt-[197px] ml-[927px]"
+          style={{ color: "#c8c7c7" }}
         >
           SKILLS
         </p>
