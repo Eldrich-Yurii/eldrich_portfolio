@@ -11,98 +11,98 @@ import { SiGmail } from "react-icons/si";
 const Intro = () => {
   return (
     <>
-      {/* Logo */}
-      <div id="intro">
-        <img src={Logo} alt="Logo" className="pt-4 ml-6 w-16" />
-      </div>
-      {/* main pic */}
-      <div>
+      <div className="h-screen md:lg:h-[600px] font-montserrat" id="intro">
+        {/* Logo */}
+        <div id="intro">
+          <img src={Logo} alt="Logo" className="pt-3 ml-4 w-14 md:lg:w-16" />
+        </div>
+        <div>
         <img
           src={MainPic}
           alt=""
-          className="absolute z-10 -mt-[92px] ml-[670px] w-[620px]"
+          className="absolute z-10 -bottom-8 right-10 w-[380px]  md:lg:right-[59px] md:lg:-bottom-3 md:lg:w-[620px]"
         />
       </div>
-      {/* Greeting */}
-      <div className="mt-28 ml-10 font-montserrat">
-        <p className=" text-[40px] font-medium">
+       {/* Greeting */}
+       <div className="mt-10 ml-5 md:lg:mt-28 md:lg:ml-10">
+        <p className="text-2xl font-semibold md:lg:text-[40px] md:lg:font-medium">
           Hi there <span className="text-red-600">!</span>
         </p>
-        <p className=" text-7xl font-semibold w-[800px]">
+        <p className=" text-4xl md:lg:text-7xl font-semibold md:lg:w-[800px]">
           I am Eldrich Jyuri Sumabat
         </p>
-        <p className="text-lg font-semibold text-red-600" >
+        <p className="md:lg:text-lg font-semibold pt-3 text-red-600" >
           W E B&nbsp;&nbsp;&nbsp;D E V E L O P E R
         </p>
       </div>
-      {/* 022 */}
-      <div>
+       {/* 022 */}
+       <div>
         <p
-          className="absolute -rotate-90 font-antonio text-[150px] font-bold ml-[491px] mt-[2px] drop-shadow-md"
+          className="absolute z-10 -rotate-90 font-antonio text-8xl -bottom-[34px] -left-3 md:lg:text-[150px] font-bold md:lg:left-[470px] md:lg:-bottom-[18px] drop-shadow-md"
           style={{ color: "#8C8C8C" }}
         >
           022
         </p>
       </div>
-      {/* xxx */}
-      <div className="flex ml-10 mt-32">
+       {/* xxx */}
+       <div className="absolute invisible bottom-0 left-6 md:lg:visible md:lg:bottom-4 md:lg:left-16 md:lg:rotate-90">
         <BiPlusMedical
-          className="rotate-45 text-2xl text-red-600"
+          className="rotate-45 text-2xl md:lg:text-2xl text-red-600"
           
         />
         <BiPlusMedical
-          className="rotate-45 text-2xl text-red-600"
+          className="rotate-45 text-2xl md:lg:text-2xl text-red-600"
           
         />
         <BiPlusMedical
-          className="rotate-45 text-2xl text-red-600"
+          className="rotate-45 text-2xl md:lg:text-2xl text-red-600"
           
         />
       </div>
-      {/* red bar */}
-      <div
-        className="absolute z-10  -mt-[600px] ml-[1019px] w-64 h-[632px] mix-blend-multiply"
+       {/* red bar */}
+       <div
+        className="absolute bottom-0 left-[105px] rounded-full  h-72 w-72  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
         style={{ background: "#e73c37" }}
       ></div>
-      {/* social links div */}
-      <div className="flex justify-end">
-        <div className="-mt-[220px] mr-11">
-          <div className="absolute">
+       {/* social links div */}
+       <div className="flex justify-end mt-24 mr-9 lg:md:mt-48">
+        <div className="md:lg:-mt-[220px] md:lg:mr-10">
+          <div className="absolute z-10 right-3">
             <a href="https://www.facebook.com/eldrich.jyuri.sumabat.22" target="_blank">
               <FaFacebookSquare
-                className="mb-4 text-2xl text-red-600 hover:text-gray-800"
+                className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800"
                 // 
               />
             </a>
             <a href="https://instagram.com/dricht_?igshid=MzMyNGUyNmU2YQ==" target="_blank">
               <AiFillInstagram
-                className="mb-4 text-2xl text-red-600 hover:text-gray-800"
+                className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800"
                 
               />
             </a>
             <a href="https://www.linkedin.com/in/eldrich-jyuri-sumabat" target="_blank">
               <FaLinkedin
-                className="mb-4 text-2xl text-red-600  hover:text-gray-800"
+                className="text-2xl mb-3 md:lg:mb-4 text-red-600  hover:text-gray-800"
               />
             </a>
             <a href="https://github.com/Eldrich-Yurii" target="_blank">
               <FaGithubSquare
-                className="mb-4 text-2xl text-red-600 hover:text-gray-800"
+                className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800"
                 // 
               />
             </a>
             <a href="mailto:eldrichjyuris@gmail.com" target="_blank">
-              <SiGmail className="mb-4 text-2xl text-red-600 hover:text-gray-800" 
+              <SiGmail className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800" 
               //  
               />
             </a>
           </div>
-          <div className="-mt-4 -rotate-90">
+          <div className="md:lg:-mt-4 -rotate-90">
             <div
-              className="absolute mt-2 h-1 w-20"
+              className="absolute top-2 left-6 h-1 w-20 md:lg:top-12"
               style={{ background: "#282828" }}
             ></div>
-            <p className="absolute -mt-1 ml-24 w-48 font-montserrat font-bold text-gray-800">
+            <p className="absolute -top-1 -right-80 md:lg:mt-11 md:lg:ml-24 w-48 font-montserrat font-bold text-gray-800">
               L E T ' S&nbsp;&nbsp;C O N N E C T
             </p>
           </div>
@@ -112,14 +112,16 @@ const Intro = () => {
         <img
           src={Border}
           alt=""
-          className="rotate absolute w-[530px] -mt-[520px] ml-[700px] opacity-40 grayscale "
+          className="rotate absolute -top-[285px] -right-64 md:lg:w-[530px] md:lg:top-[60px] md:lg:right-[114px] opacity-40 grayscale "
         />
         <img
           src={Border}
           alt=""
-          className="reverse-rotate absolute w-[325px] -mt-[415px] ml-[801px] opacity-40 grayscale"
+          className="reverse-rotate absolute -top-[220px] -right-[200px] w-[325px] md:lg:top-[161px] md:lg:right-[215px] opacity-40 grayscale"
         />
       </div>
+      </div>
+      
     </>
   );
 };
