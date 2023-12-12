@@ -4,31 +4,28 @@ import { BiPlusMedical } from "react-icons/bi";
 const Skills = () => {
   return (
     <>
-      <div className="h-screen" id="skill" style={{ background: "#c8c7c7" }}>
-        <div
-          className="absolute mt-12 h-1 w-20"
-          style={{ background: "#E73C37" }}
-        ></div>
-        <p className="absolute ml-24 mt-[35px] text-2xl font-medium">
-          TECHNICAL SKILLS
-        </p>
-        {/* xxx */}
-        <div className="absolute flex rotate-90 mt-32 ml-4">
-          <BiPlusMedical className="rotate-45 text-2xl text-red-600" />
-          <BiPlusMedical className="rotate-45 text-2xl text-red-600" />
-          <BiPlusMedical className="rotate-45 text-2xl text-red-600" />
+      <div className="h-screen font-montserrat">
+        <div className="flex">
+          <div
+            className=" mt-12 h-1 w-14 md:lg:w-24"
+            style={{ background: "#E73C37" }}
+          ></div>
+          <p className=" ml-5 mt-[35px] text-xl font-medium md:lg:text-2xl">
+            TECHNICAL SKILLS
+          </p>
         </div>
-        {/* Cards of skills */}
-        <div className="absolute mt-24 ml-24">
-          <div className="grid grid-cols-2 gap-4">
+        <div>
+            {/* Cards of skills */}
+        <div className="absolute mt-5 ml-6 md:lg:mt-10 md:lg:ml-24">
+          <div className="grid md:lg:grid-cols-2 gap-4">
             <div
-              className="w-[480px] bg-gray-200 p-8 px-10 drop-shadow-lg"
+              className=" bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:px-10 md:lg:p-8 md:lg:w-[480px]"
               style={{ background: "#D9D9D9" }}
             >
-              <p className="font-medium text-lg pb-4 font-montserrat">
+              <p className="font-medium text-md pb-2 md:lg:pb-4 ">
                 FRONTEND DEVELOPMENT
               </p>
-              <ul className="text-medium font-montserrat font-medium">
+              <ul className="text-medium ml-0 md:lg:font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">HTML</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -45,13 +42,13 @@ const Skills = () => {
             </div>
             {/* GRAPHIC DESIGN */}
             <div
-              className="w-[480px] h-[150px] bg-gray-200 p-8 px-10 drop-shadow-lg"
+              className="bg-gray-200 w-72 px-6 py-3 md:lg:w-[480px] md:lg:h-[150px] md:lg:p-8 md:lg:px-10"
               style={{ background: "#D9D9D9" }}
             >
-              <p className="font-medium text-lg pb-4 font-montserrat">
+              <p className="font-medium text-md md:lg:pb-4 ">
                 GRAPHIC DESIGN
               </p>
-              <ul className="text-medium font-montserrat font-medium">
+              <ul className="text-medium  font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">UI/UX DESIGN</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -60,15 +57,15 @@ const Skills = () => {
             </div>
           </div>
           {/* BACKEND DEVELOPMENT */}
-          <div className="grid grid-cols-2 gap-4 pt-4">
+          <div className="grid md:lg:grid-cols-2 gap-4 pt-4">
             <div
-              className="w-[480px] bg-gray-200 p-8 px-10 drop-shadow-lg"
+              className="bg-gray-200 w-72 px-6 py-3 md:lg:w-[480px] md:lg:p-8 md:lg:px-10 drop-shadow-lg"
               style={{ background: "#D9D9D9" }}
             >
-              <p className="font-medium text-lg pb-4 font-montserrat">
+              <p className="font-medium text-md pb-4 ">
                 BACKEND DEVELOPMENT
               </p>
-              <ul className="text-medium font-montserrat font-medium">
+              <ul className="text-medium  font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">LARAVEL</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -79,11 +76,11 @@ const Skills = () => {
             </div>
             {/* TOOLS */}
             <div
-              className="-mt-[100px] w-[480px] bg-gray-200 p-8 px-10 drop-shadow-lg"
+              className="bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:-mt-[100px] md:lg:w-[480px] md:lg:p-8 md:lg:px-10"
               style={{ background: "#D9D9D9" }}
             >
-              <p className="font-medium text-lg pb-4 font-montserrat">TOOLS</p>
-              <ul className="text-medium font-montserrat font-medium">
+              <p className="font-medium text-md pb-4 ">TOOLS</p>
+              <ul className="text-medium  font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">VISUAL STUDIO CODE</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -102,6 +99,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        </div>
         <div className="absolute mt-[535px] ml-8">
           <div className="">
             <p className="relative -ml-9 -mt-6 rotate-90 font-montserrat font-semibold">
@@ -113,7 +111,7 @@ const Skills = () => {
           </div>
         </div>
         <p
-          className="absolute text-center tracking-wider bg-red-600 text-[150px] font-montserrat font-black w-[619px] -rotate-90 mt-[197px] ml-[927px]"
+          className="absolute invisible md:lg:visible md:lg:text-center md:lg:tracking-wider md:lg:bg-red-600 md:lg:text-[150px] md:lg:font-montserrat md:lg:font-black md:lg:w-[619px] md:lg:-rotate-90 md:lg:mt-[130px] md:lg:ml-[927px]"
           style={{ color: "#c8c7c7" }}
         >
           SKILLS
