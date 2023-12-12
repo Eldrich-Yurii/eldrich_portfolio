@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 const Intro = () => {
   return (
     <>
-      <div className="h-screen md:lg:h-[600px] font-montserrat" id="intro">
+      <div className="h-[635px] md:lg:h-[600px] font-montserrat" id="intro">
         {/* Logo */}
         <div id="intro">
           <img src={Logo} alt="Logo" className="pt-3 ml-4 w-14 md:lg:w-16" />
@@ -20,7 +20,7 @@ const Intro = () => {
         <img
           src={MainPic}
           alt=""
-          className="absolute z-10 -bottom-8 right-0  md:lg:right-[59px] md:lg:-bottom-3 md:lg:w-[620px]"
+          className="absolute z-10 bottom-0 right-0  md:lg:right-[59px] md:lg:-bottom-3 md:lg:w-[620px]"
         />
       </div>
        {/* Greeting */}
@@ -38,7 +38,7 @@ const Intro = () => {
        {/* 022 */}
        <div>
         <p
-          className="absolute z-10 -rotate-90 font-antonio text-8xl -bottom-[34px] -left-3 md:lg:text-[150px] font-bold md:lg:left-[470px] md:lg:-bottom-[18px] drop-shadow-md"
+          className="absolute z-10 -rotate-90 font-antonio text-8xl -bottom-1 -left-3 md:lg:text-[150px] font-bold md:lg:left-[470px] md:lg:-bottom-[18px] drop-shadow-md"
           style={{ color: "#8C8C8C" }}
         >
           022
@@ -61,11 +61,11 @@ const Intro = () => {
       </div>
        {/* red bar / circle */}
        <div
-        className="absolute bottom-10 left-[50px] rounded-full  h-64 w-64  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
+        className="absolute bottom-10 left-[60px] rounded-full  h-64 w-64  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
         style={{ background: "#e73c37" }}
       ></div>
        {/* social links div */}
-       <div className="flex justify-end mt-[230px] mr-9 lg:md:mt-48">
+       <div className="flex justify-end mt-[240px] mr-9 lg:md:mt-48">
         <div className="md:lg:-mt-[220px] md:lg:mr-10">
           <div className="absolute z-10 right-3">
             <a href="https://www.facebook.com/eldrich.jyuri.sumabat.22" target="_blank">
@@ -102,7 +102,7 @@ const Intro = () => {
               className="absolute top-2 left-6 h-1 w-20 md:lg:top-12"
               style={{ background: "#282828" }}
             ></div>
-            <p className="absolute -top-1 -right-[310px] text-sm md:lg:mt-11 md:lg:ml-24 w-48 font-montserrat font-bold text-gray-800">
+            <p className="absolute -top-1 -right-[310px] text-sm md:lg:text-base md:lg:mt-11 md:lg:ml-24 w-48 font-montserrat font-bold text-gray-800">
               L E T ' S&nbsp;&nbsp;C O N N E C T
             </p>
           </div>
@@ -112,12 +112,12 @@ const Intro = () => {
         <img
           src={Border}
           alt=""
-          className="rotate absolute -top-[285px] -right-64 md:lg:w-[530px] md:lg:top-[60px] md:lg:right-[114px] opacity-40 grayscale "
+          className="rotate absolute -top-[220px] -right-[210px] md:lg:w-[530px] md:lg:top-[60px] md:lg:right-[114px] opacity-40 grayscale "
         />
         <img
           src={Border}
           alt=""
-          className="reverse-rotate absolute -top-[220px] -right-[200px] w-[325px] md:lg:top-[161px] md:lg:right-[215px] opacity-40 grayscale"
+          className="reverse-rotate absolute -top-[220px] -right-[210px] w-[325px] md:lg:top-[161px] md:lg:right-[215px] opacity-40 grayscale"
         />
       </div>
       </div>
