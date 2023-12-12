@@ -36,14 +36,14 @@ const About = () => {
             <div className="absolute w-20 h-20 -mt-20 ml-[90px] md:lg:w-[180px] md:lg:h-[180px] bg-red-600 rounded-full md:lg:-mt-32 md:lg:ml-[165px]"></div>
           </div>
           {/* description */}
-          <div className="font-montserrat pt-28 px-4 w-80 md:lg:w-[650px] md:lg:px-8">
+          <div className="font-montserrat mt-28 text-center w-80 md:lg:w-[650px] md:lg:px-8">
             <div>
               <h1 className="pb-4 text-2xl font-semibold md:lg:text-4xl text-red-600 md:lg:font-bold">
                 WHO AM I?
               </h1>
             </div>
             <div>
-              <p className="font-semibold px-2 text-md md:lg:text-2xl md:lg:leading-9 md:lg:font-medium">
+              <p className="font-semibold text-md pl-8 md:lg:text-2xl md:lg:leading-9 md:lg:font-medium">
                 A web developer with creativity, independence, and adaptability.
                 skilled in a variety of technologies, including HTML, CSS,
                 JavaScript, Node.js, Laravel, and MySQL. I am also skilled in
@@ -56,14 +56,14 @@ const About = () => {
         </div>
         <div>
           {/* xxx */}
-        <div className="flex absolute pt-4 ml-6  md:lg:pt-12 md:lg:mb-20 md:lg:ml-7">
+        <div className="flex absolute mt-10 ml-6  md:lg:pt-12 md:lg:mb-20 md:lg:ml-7">
           <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
           <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
           <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
         </div>
          {/* logo */}
-         <div className="absolute right-10 mt-4 md:lg:right-2 md:lg:mt-6">
-          <img src={Logo} alt="Logo" className="w-5 md:lg:w-12" />
+         <div className="absolute right-10 mt-7 md:lg:right-2 md:lg:mt-6">
+          <img src={Logo} alt="Logo" className="w-9 md:lg:w-12" />
         </div>
         </div>
       </div>
