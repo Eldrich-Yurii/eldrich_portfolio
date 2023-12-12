@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 const Intro = () => {
   return (
     <>
-      <div className="h-[720px] md:lg:h-[600px] font-montserrat" id="intro">
+      <div className="h-[96vh] md:lg:h-[600px] font-montserrat" id="intro">
         {/* Logo */}
         <div id="intro">
           <img src={Logo} alt="Logo" className="pt-3 ml-4 w-14 md:lg:w-16" />
@@ -61,7 +61,7 @@ const Intro = () => {
       </div>
        {/* red bar / circle */}
        <div
-        className="absolute bottom-[370px] left-[145px] rounded-full  h-20 w-20  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
+        className="absolute bottom-[52%] left-[145px] rounded-full  h-20 w-20  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
         style={{ background: "#e73c37" }}
       ></div>
        {/* social links div */}
@@ -117,7 +117,7 @@ const Intro = () => {
         <img
           src={Border}
           alt=""
-          className="reverse-rotate absolute bottom-[60px] right-[80px] w-[220px] md:lg:top-[161px] md:lg:right-[215px] opacity-40 grayscale"
+          className="reverse-rotate absolute bottom-[60px] right-[20%] w-[220px] md:lg:top-[161px] md:lg:right-[215px] opacity-40 grayscale"
         />
       </div>
       </div>
