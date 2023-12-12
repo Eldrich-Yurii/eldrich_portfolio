@@ -20,7 +20,7 @@ const Intro = () => {
         <img
           src={MainPic}
           alt=""
-          className="absolute z-10 -bottom-8 right-10 w-[380px]  md:lg:right-[59px] md:lg:-bottom-3 md:lg:w-[620px]"
+          className="absolute z-10 -bottom-8 right-0  md:lg:right-[59px] md:lg:-bottom-3 md:lg:w-[620px]"
         />
       </div>
        {/* Greeting */}
@@ -59,13 +59,13 @@ const Intro = () => {
           
         />
       </div>
-       {/* red bar */}
+       {/* red bar / circle */}
        <div
-        className="absolute bottom-0 left-[105px] rounded-full  h-72 w-72  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
+        className="absolute bottom-10 left-[50px] rounded-full  h-64 w-64  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
         style={{ background: "#e73c37" }}
       ></div>
        {/* social links div */}
-       <div className="flex justify-end mt-24 mr-9 lg:md:mt-48">
+       <div className="flex justify-end mt-[230px] mr-9 lg:md:mt-48">
         <div className="md:lg:-mt-[220px] md:lg:mr-10">
           <div className="absolute z-10 right-3">
             <a href="https://www.facebook.com/eldrich.jyuri.sumabat.22" target="_blank">
@@ -102,7 +102,7 @@ const Intro = () => {
               className="absolute top-2 left-6 h-1 w-20 md:lg:top-12"
               style={{ background: "#282828" }}
             ></div>
-            <p className="absolute -top-1 -right-80 md:lg:mt-11 md:lg:ml-24 w-48 font-montserrat font-bold text-gray-800">
+            <p className="absolute -top-1 -right-[310px] text-sm md:lg:mt-11 md:lg:ml-24 w-48 font-montserrat font-bold text-gray-800">
               L E T ' S&nbsp;&nbsp;C O N N E C T
             </p>
           </div>
