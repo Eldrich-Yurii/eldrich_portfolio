@@ -24,7 +24,7 @@ const Intro = () => {
         />
       </div>
        {/* Greeting */}
-       <div className="mt-10 ml-5 md:lg:mt-28 md:lg:ml-10">
+       <div className="mt-6 mx-4 md:lg:mt-28 md:lg:ml-10">
         <p className="text-2xl font-semibold md:lg:text-[40px] md:lg:font-medium">
           Hi there <span className="text-red-600">!</span>
         </p>
@@ -117,7 +117,7 @@ const Intro = () => {
         <img
           src={Border}
           alt=""
-          className="reverse-rotate absolute bottom-[60px] right-[20%] w-[220px] md:lg:top-[161px] md:lg:right-[215px] opacity-40 grayscale"
+          className="reverse-rotate absolute bottom-[60px] right-[24vw] w-[220px] md:lg:top-[161px] md:lg:right-[215px] opacity-40 grayscale"
         />
       </div>
       </div>
