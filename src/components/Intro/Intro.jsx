@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 const Intro = () => {
   return (
     <>
-      <div className="h-[635px] md:lg:h-[600px] font-montserrat" id="intro">
+      <div className="h-[708px] md:lg:h-[600px] font-montserrat" id="intro">
         {/* Logo */}
         <div id="intro">
           <img src={Logo} alt="Logo" className="pt-3 ml-4 w-14 md:lg:w-16" />
