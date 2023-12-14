@@ -8,7 +8,7 @@ import { BiPlusMedical } from "react-icons/bi";
 const About = () => {
   return (
     <>
-      <div className="mt-8 h-screen md:lg:bg-gray-200" id="about">
+      <div className="mt-8 h-screen md:lg:bg-gray-200 font-montserrat" id="about">
         <div>
           <div className="absolute mt-12 h-1 w-20 bg-red-600"></div>
           <p className="absolute ml-24 mt-[35px] text-2xl font-medium">
@@ -30,14 +30,14 @@ const About = () => {
             <div className="absolute w-24 h-24 -mt-[175px] ml-[85px] md:lg:w-[180px] md:lg:h-[180px] bg-red-600 rounded-full md:lg:-mt-[270px] md:lg:ml-[165px]"></div>
           </div>
           {/* description */}
-          <div className="font-montserrat mt-3 pl-8  w-80 md:lg:w-[650px] md:lg:mt-48 md:lg:-ml-20 md:lg:pl-8">
+          <div className="mt-3 pl-8  w-80 md:lg:w-[650px] md:lg:mt-32 md:lg:-ml-20 md:lg:pl-8">
             <div>
               <h1 className="py-4 text-2xl font-semibold md:lg:text-4xl text-red-600 md:lg:font-bold">
                 WHO AM I?
               </h1>
             </div>
             <div>
-              <p className="font-semibold text-md  md:lg:text-2xl md:lg:leading-9 md:lg:font-medium">
+              <p className="font-semibold text-md text-justify  md:lg:text-2xl md:lg:leading-10 md:lg:font-medium">
                 A web developer with creativity, independence, and adaptability.
                 skilled in a variety of technologies, including HTML, CSS,
                 JavaScript, Node.js, Laravel, and MySQL. I am also skilled in

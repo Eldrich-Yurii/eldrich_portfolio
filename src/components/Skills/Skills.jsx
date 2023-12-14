@@ -1,5 +1,5 @@
 import React from "react";
-import { BiPlusMedical } from "react-icons/bi";
+import { FaCheck } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -10,7 +10,7 @@ const Skills = () => {
             className=" mt-12 h-1 w-14 md:lg:w-24"
             style={{ background: "#E73C37" }}
           ></div>
-          <p className=" ml-5 mt-[35px] text-xl font-medium md:lg:text-2xl">
+          <p className=" ml-5 mt-[35px] text-2xl font-medium">
             TECHNICAL SKILLS
           </p>
         </div>
@@ -26,32 +26,32 @@ const Skills = () => {
                 FRONTEND DEVELOPMENT
               </p>
               <ul className="text-sm font-medium">
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">HTML</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">CSS</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">BOOTSTRAP</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">TAILWIND</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">JAVASCRIPT</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">REACT JS</li>
               </ul>
             </div>
             {/* GRAPHIC DESIGN */}
             <div
-              className="bg-gray-200 w-72 px-6 py-3 md:lg:w-[480px] md:lg:h-[150px] md:lg:p-8 md:lg:px-10"
+              className="bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:w-[480px] md:lg:h-[150px] md:lg:p-8 md:lg:px-10"
               style={{ background: "#D9D9D9" }}
             >
               <p className="font-medium text-md md:lg:pb-4 ">
                 GRAPHIC DESIGN
               </p>
               <ul className="text-sm  font-medium">
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">UI/UX DESIGN</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">LOGO</li>
               </ul>
             </div>
@@ -66,34 +66,34 @@ const Skills = () => {
                 BACKEND DEVELOPMENT
               </p>
               <ul className="text-sm  font-medium">
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">LARAVEL</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">NODE JS</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">EXPRESS JS</li>
               </ul>
             </div>
             {/* TOOLS */}
             <div
-              className="bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:-mt-[100px] md:lg:w-[480px] md:lg:p-8 md:lg:px-10"
+              className="bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:-mt-[75px] md:lg:w-[480px] md:lg:p-8 md:lg:px-10"
               style={{ background: "#D9D9D9" }}
             >
               <p className="font-medium text-md ">TOOLS</p>
               <ul className="text-sm  font-medium">
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">VISUAL STUDIO CODE</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">POSTMAN</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">XAMPP</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">DBEAVER</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">FIGMA</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">CANVA</li>
-                <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
+                <FaCheck  className="absolute text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">ADOBE ILLUSTRATOR</li>
               </ul>
             </div>

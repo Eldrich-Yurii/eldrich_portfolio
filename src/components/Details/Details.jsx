@@ -85,17 +85,17 @@ const Details = () => {
             </div>
             <div>
               <p
-                className="text-sm md:lg:text-2xl font-medium"
+                className="text-sm leading-8 md:lg:text-2xl font-bold md:lg:leading-10"
                 style={{ color: "#282828" }}
               >
-                <span className="font-bold">AGE :</span> 21 <br />
-                <span className="font-bold">DATE OF BIRTH :</span> OCTOBER 22, 2002 <br />
-                <span className="font-bold">NATIONALITY :</span> FILIPINO <br />
-                <span className="font-bold"> GENDER :</span> MALE <br />
-                <span className="font-bold"> LANGUAGE :</span> TAGALOG, ENGLISH <br />
-                <span className="font-bold">MBTI :</span> INFJ-T <br />
-                <span className="font-bold">CONTACT NUMBER :</span> (+63)9810238115 <br />
-                <span className="font-bold">ADDRESS :</span> STA. MARIA BULACAN
+                AGE :<span className="font-medium"> 21</span> <br />
+                DATE OF BIRTH :<span className="font-medium"> OCTOBER 22, 2002</span> <br />
+                NATIONALITY :<span className="font-medium"> FILIPINO</span> <br />
+                GENDER :<span className="font-medium"> MALE</span> <br />
+                LANGUAGE :<span className="font-medium"> TAGALOG, ENGLISH</span> <br />
+                MBTI :<span className="font-medium"> INFJ-T</span> <br />
+                CONTACT NUMBER :<span className="font-medium"> (+63)9810238115</span> <br />
+                ADDRESS :<span className="font-medium"> STA. MARIA BULACAN</span>
               </p>
             </div>
           </div>
