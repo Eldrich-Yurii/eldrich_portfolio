@@ -7,7 +7,6 @@ import Pic4 from "./assets/4.png";
 import Pic5 from "./assets/5.png";
 import Pic6 from "./assets/6.png";
 import Pic7 from "./assets/7.png";
-import ProjectBorder from "./ProjectBorder";
 import { BiPlusMedical } from "react-icons/bi";
 
 const data = [
@@ -44,28 +43,17 @@ const data = [
 const Projects = () => {
   return (
     <>
-      <div className=" h-auto bg-gray-300 py-20" id="project">
-        <p className=" font-montserrat text-4xl text-center font-semibold pb-16">
+      <div className=" h-auto md:lg:bg-gray-300 py-20" id="project">
+        <p className=" font-montserrat text-center font-semibold pb-6 text-xl  md:lg:pb-16 md:lg:text-4xl">
           PROJECT <span style={{ color: "#e73c37" }}>EXPERIENCES</span>
         </p>
-        <div>
-          <ProjectBorder />
-        </div>
-        <div className="absolute mt-[600px] w-full">
-          <ProjectBorder />
-        </div>
-        <div className="absolute mt-[1200px] w-full">
-          <ProjectBorder />
-        </div>
-        <div className="absolute mt-[1800px] w-full">
-          <ProjectBorder />
-        </div>
+       
         {/* Slide 1 Weatheria */}
         <div className="flex justify-center" id="weatheria">
           <Carousel
             autoplay
             loop
-            className="h-[500px] w-[1000px] pt-2"
+            className="w-72 md:lg:h-[500px]  md:lg:w-[1000px] pt-2"
             navigation={({ setActiveIndex, activeIndex, length }) => (
               <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (
@@ -88,16 +76,16 @@ const Projects = () => {
           </Carousel>
         </div>
         <div>
-          <div className="font-montserrat flex justify-between px-72 pt-20">
-            <div className="w-[400px]">
-              <div className="flex justify-between pb-6">
+          <div className="font-montserrat  md:lg:flex justify-between px-10  md:lg:px-72  md:lg:pt-20">
+            <div className="md:lg:w-[400px]">
+              <div className="pt-6 md:lg:flex md:lg:justify-between md:lg:pb-6 md:lg:pt-0 ">
                 <p className="text-xl font-bold">WEATHERIA</p>
                 <p className="text-lg font-semibold text-red-600">
                   November 2023
                 </p>
               </div>
-              <div className="text-justify pb-16">
-                <p>
+              <div className="pb-4 md:lg:text-justify md:lg:pb-16">
+                <p className="text-sm  md:lg:text-base">
                   A flood monitoring and risk management system specifically for
                   Barangay Panghulo, Obando Bulacan. Developed to help Barangay
                   officials predict possible floods depending on the data
@@ -108,14 +96,14 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <ul className="text-xl leading-10 pt-8">
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+              <ul className="text-lg ml-5 md:lg:text-xl md:lg:leading-10 md:lg:pt-8 md:lg:ml-0">
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>REACT JS</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>TAILWIND</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>LARAVEL</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>SQL</li>
               </ul>
             </div>
@@ -127,7 +115,7 @@ const Projects = () => {
           <Carousel
             autoplay
             loop
-            className="h-[500px] w-[1000px] pt-2"
+            className="w-72 md:lg:h-[500px]  md:lg:w-[1000px] pt-2"
             navigation={({ setActiveIndex, activeIndex, length }) => (
               <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (
@@ -148,15 +136,15 @@ const Projects = () => {
           </Carousel>
         </div>
         <div>
-          <div className="font-montserrat flex justify-between px-72 py-20">
-            <div className="w-[400px]">
-              <div className="flex justify-between pb-6">
+          <div className="font-montserrat md:lg:flex md:lg:justify-between px-10  md:lg:px-72  md:lg:pt-20">
+            <div className=" md:lg:w-[400px]">
+              <div className="pt-6 md:lg:pt-0md:lg:flex md:lg:justify-between md:lg:pb-6">
                 <p className="text-xl font-bold">KEY TO YOUR HOME</p>
                 <p className="text-lg font-semibold text-red-600">
                   November 2023
                 </p>
               </div>
-              <div className="text-justify pb-16">
+              <div className="pb-4 md:lg:text-justify md:lg:pb-16">
                 <p>
                   Simple yet elegant design. A user-friendly real estate website
                   for clients browse and see details about the property that
@@ -166,14 +154,14 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <ul className="text-xl leading-10 pt-8">
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+              <ul className="text-lg ml-5 md:lg:text-xl md:lg:leading-10 md:lg:pt-8 md:lg:ml-0">
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>REACT JS</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>TAILWIND</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>LARAVEL</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>SQL</li>
               </ul>
             </div>
@@ -185,7 +173,7 @@ const Projects = () => {
           <Carousel
             autoplay
             loop
-            className="h-[500px] w-[1000px] pt-2"
+            className="w-72 md:lg:h-[500px] md:lg:w-[1000px] pt-2"
             navigation={({ setActiveIndex, activeIndex, length }) => (
               <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (
@@ -206,17 +194,16 @@ const Projects = () => {
           </Carousel>
         </div>
         <div>
-          <div className="font-montserrat flex justify-between px-72 pt-20">
-            <div className="w-[400px]">
-              <div className="flex justify-between pb-6">
+          <div className="font-montserrat  md:lg:flex justify-between px-10  md:lg:px-72  md:lg:pt-20">
+            <div className=" md:lg:w-[400px]">
+              <div className="pt-6 md:lg:pt-0md:lg:flex md:lg:justify-between md:lg:pb-6">
                 <p className="text-xl font-bold">NEIGHBOR CHEF</p>
                 <p className="text-lg font-semibold text-red-600">
                   August 2023
                 </p>
               </div>
-              <div className="text-justify pb-16">
+              <div className="pb-4 md:lg:text-justify md:lg:pb-16">
                 <p>
-                  {" "}
                   Modern, sleek website with an eye-catching menu, alluring
                   promos, simplified reservation and booking forms, and a
                   practical reservation checker. Powered smoothly by a strong
@@ -227,14 +214,14 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <ul className="text-xl leading-10 pt-8">
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+              <ul className="text-lg ml-5 md:lg:text-xl md:lg:leading-10 md:lg:pt-8 md:lg:ml-0">
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>REACT JS</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>TAILWIND</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>LARAVEL</li>
-                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-3 text-red-600" />
+                <BiPlusMedical className="absolute rotate-45 text-lg -ml-5 mt-1 md:lg:mt-3 text-red-600" />
                 <li>SQL</li>
               </ul>
             </div>

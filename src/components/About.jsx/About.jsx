@@ -8,24 +8,18 @@ import { BiPlusMedical } from "react-icons/bi";
 const About = () => {
   return (
     <>
-      <div className="mt-8 h-screen bg-gray-200" id="about">
+      <div className="mt-8 h-screen md:lg:bg-gray-200" id="about">
         <div>
           <div className="absolute mt-12 h-1 w-20 bg-red-600"></div>
-          <p className="absolute ml-24 mt-[35px] text-lg font-medium">
+          <p className="absolute ml-24 mt-[35px] text-2xl font-medium">
             ABOUT ME
           </p>
-
-          {/* xxx */}
-          <div className="absolute rotate-90 mt-5 right-16 md:lg:mt-3 md:lg:right-10">
-            <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
-            <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
-            <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
-          </div>
+         
         </div>
         <div className="grid md:lg:grid-cols-2">
-          <div className="ml-11 mt-0">
+          <div className="ml-11 mt-20 md:lg:mt-0">
             {/* pic ko */}
-            <img src={Pic} alt="" className="relative mt-24 z-10 w-64 md:lg:w-96 md:lg:mt-32 md:lg:ml-16" />
+            <img src={Pic} alt="" className="relative  z-10 w-64 md:lg:w-96 md:lg:mt-32 md:lg:ml-16 brightness-95" />
             {/* rotating circle border */}
             <img
               src={Border}
@@ -33,12 +27,12 @@ const About = () => {
               className="rotate_border absolute -mt-56 ml-10 w-[50%]  md:lg:w-[330px] md:lg:-mt-[350px] md:lg:ml-[90px]"
             />
             {/* bilog sa likod */}
-            <div className="absolute w-20 h-20 -mt-[175px] ml-[90px] md:lg:w-[180px] md:lg:h-[180px] bg-red-600 rounded-full md:lg:-mt-[270px] md:lg:ml-[165px]"></div>
+            <div className="absolute w-20 h-20 -mt-[175px] ml-[92px] md:lg:w-[180px] md:lg:h-[180px] bg-red-600 rounded-full md:lg:-mt-[270px] md:lg:ml-[165px]"></div>
           </div>
           {/* description */}
           <div className="font-montserrat mt-3 pl-8  w-80 md:lg:w-[650px] md:lg:mt-48 md:lg:-ml-20 md:lg:pl-8">
             <div>
-              <h1 className="pb-1 text-2xl font-semibold md:lg:text-4xl text-red-600 md:lg:font-bold">
+              <h1 className="py-4 text-2xl font-semibold md:lg:text-4xl text-red-600 md:lg:font-bold">
                 WHO AM I?
               </h1>
             </div>
@@ -53,18 +47,6 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div>
-          {/* xxx */}
-        <div className="flex absolute mt-10 ml-6  md:lg:pt-12 md:lg:mb-20 md:lg:mt-0 md:lg:ml-7">
-          <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
-          <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
-          <BiPlusMedical className="rotate-45 text-lg md:lg:text-2xl text-red-600" />
-        </div>
-         {/* logo */}
-         <div className="absolute right-10 mt-7 md:lg:right-6 md:lg:mt-6">
-          <img src={Logo} alt="Logo" className="w-9 md:lg:w-12" />
-        </div>
         </div>
       </div>
     </>

@@ -16,16 +16,16 @@ const Skills = () => {
         </div>
         <div>
             {/* Cards of skills */}
-        <div className="absolute mt-5 ml-6 md:lg:mt-10 md:lg:ml-24">
+        <div className="md:lg:absolute mt-5 ml-6 md:lg:mt-10 md:lg:ml-24">
           <div className="grid md:lg:grid-cols-2 gap-4">
             <div
               className=" bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:px-10 md:lg:p-8 md:lg:w-[480px]"
               style={{ background: "#D9D9D9" }}
             >
-              <p className="font-medium text-md pb-2 md:lg:pb-4 ">
+              <p className="font-medium text-md md:lg:pb-4 ">
                 FRONTEND DEVELOPMENT
               </p>
-              <ul className="text-medium ml-0 md:lg:font-medium">
+              <ul className="text-sm font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">HTML</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -48,7 +48,7 @@ const Skills = () => {
               <p className="font-medium text-md md:lg:pb-4 ">
                 GRAPHIC DESIGN
               </p>
-              <ul className="text-medium  font-medium">
+              <ul className="text-sm  font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">UI/UX DESIGN</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -62,10 +62,10 @@ const Skills = () => {
               className="bg-gray-200 w-72 px-6 py-3 md:lg:w-[480px] md:lg:p-8 md:lg:px-10 drop-shadow-lg"
               style={{ background: "#D9D9D9" }}
             >
-              <p className="font-medium text-md pb-4 ">
+              <p className="font-medium text-md ">
                 BACKEND DEVELOPMENT
               </p>
-              <ul className="text-medium  font-medium">
+              <ul className="text-sm  font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">LARAVEL</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -79,8 +79,8 @@ const Skills = () => {
               className="bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:-mt-[100px] md:lg:w-[480px] md:lg:p-8 md:lg:px-10"
               style={{ background: "#D9D9D9" }}
             >
-              <p className="font-medium text-md pb-4 ">TOOLS</p>
-              <ul className="text-medium  font-medium">
+              <p className="font-medium text-md ">TOOLS</p>
+              <ul className="text-sm  font-medium">
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
                 <li className="ml-10">VISUAL STUDIO CODE</li>
                 <BiPlusMedical className="absolute rotate-45 text-sm ml-4 mt-1 text-red-600" />
@@ -100,7 +100,7 @@ const Skills = () => {
           </div>
         </div>
         </div>
-        <div className="absolute mt-[535px] ml-8">
+        <div className="invisible absolute  md:lg:mt-[75vh] md:lg:ml-8 md:lg:visible">
           <div className="">
             <p className="relative -ml-9 -mt-6 rotate-90 font-montserrat font-semibold">
               WEB DESIGN &

@@ -61,7 +61,7 @@ const Intro = () => {
       </div>
        {/* red bar / circle */}
        <div
-        className="absolute bottom-[50vh] left-[145px] rounded-full  h-20 w-20  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
+        className="absolute invisible bottom-0 left-0 rounded-full  h-20 w-20 md:lg:visible  md:lg:z-10  md:lg:-top-3 md:lg:left-[1019px] md:lg:w-64 md:lg:h-[642px] md:lg:rounded-none mix-blend-multiply "
         style={{ background: "#e73c37" }}
       ></div>
        {/* social links div */}
