@@ -112,12 +112,12 @@ const Intro = () => {
         <img
           src={Border}
           alt=""
-          className="rotate absolute bottom-[70px] right-[70px] w-56 md:lg:w-[530px] md:lg:top-[60px] md:lg:right-[114px] opacity-40 grayscale "
+          className="rotate absolute bottom-[70px] right-[90px] w-[230px] md:lg:w-[530px] md:lg:top-[60px] md:lg:right-[114px] opacity-40 grayscale "
         />
         <img
           src={Border}
           alt=""
-          className="reverse-rotate absolute bottom-[90px] right-[24vw] w-[190px] md:lg:w-[350px] md:lg:top-[161px] md:lg:right-[210px] opacity-40 grayscale"
+          className="reverse-rotate absolute bottom-[90px] right-[28vw] w-[190px] md:lg:w-[350px] md:lg:top-[161px] md:lg:right-[210px] opacity-40 grayscale"
         />
       </div>
       </div>
