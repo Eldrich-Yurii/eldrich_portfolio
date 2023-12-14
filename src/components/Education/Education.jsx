@@ -7,7 +7,7 @@ const Education = () => {
   return (
     <>
     <div className='pt-48 px-14' id="education">
-        <h1 className='font-montserrat font-semibold mt-1 text-2xl md:lg:text-4xl text-center'>EDUCATIONAL <span style={{color:"#e73c37"}}>ATTAINMENT</span></h1>
+        <h1 className='font-montserrat font-semibold mt-1 text-3xl md:lg:text-4xl text-center'>EDUCATIONAL <span style={{color:"#e73c37"}}>ATTAINMENT</span></h1>
       {/* KODEGO */}
       <div className='grid md:lg:grid-cols-2 items-center pt-20'>
         <div className='md:lg:w-[700px] md:lg:pl-36 grid gap-2'>

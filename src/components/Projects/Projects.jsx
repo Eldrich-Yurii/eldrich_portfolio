@@ -44,7 +44,7 @@ const Projects = () => {
   return (
     <>
       <div className=" h-auto md:lg:bg-gray-300 py-20" id="project">
-        <p className=" font-montserrat text-center font-semibold pb-6 text-xl  md:lg:pb-16 md:lg:text-4xl">
+        <p className=" font-montserrat text-center font-semibold pb-6 text-3xl  md:lg:pb-16 md:lg:text-4xl">
           PROJECT <span style={{ color: "#e73c37" }}>EXPERIENCES</span>
         </p>
        
@@ -53,7 +53,7 @@ const Projects = () => {
           <Carousel
             autoplay
             loop
-            className="w-72 md:lg:h-[500px]  md:lg:w-[1000px] pt-2"
+            className="w-72 pt-10 md:lg:h-[500px]  md:lg:w-[1000px] md:lg:pt-2"
             navigation={({ setActiveIndex, activeIndex, length }) => (
               <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (
@@ -76,7 +76,7 @@ const Projects = () => {
           </Carousel>
         </div>
         <div>
-          <div className="font-montserrat  md:lg:flex justify-between px-10  md:lg:px-72  md:lg:pt-20">
+          <div className="font-montserrat  md:lg:flex justify-around px-10  md:lg:px-72  md:lg:pt-20">
             <div className="md:lg:w-[400px]">
               <div className="pt-6 md:lg:flex md:lg:justify-between md:lg:pb-6 md:lg:pt-0 ">
                 <p className="text-xl font-bold">WEATHERIA</p>
@@ -115,7 +115,7 @@ const Projects = () => {
           <Carousel
             autoplay
             loop
-            className="w-72 md:lg:h-[500px]  md:lg:w-[1000px] pt-2"
+            className="w-72 pt-10 md:lg:h-[500px]  md:lg:w-[1000px] md:lg:pt-2"
             navigation={({ setActiveIndex, activeIndex, length }) => (
               <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (
@@ -136,7 +136,7 @@ const Projects = () => {
           </Carousel>
         </div>
         <div>
-          <div className="font-montserrat md:lg:flex md:lg:justify-between px-10  md:lg:px-72  md:lg:pt-20">
+          <div className="font-montserrat md:lg:flex md:lg:justify-around px-10  md:lg:px-72  md:lg:pt-20">
             <div className=" md:lg:w-[400px]">
               <div className="pt-6 md:lg:pt-0md:lg:flex md:lg:justify-between md:lg:pb-6">
                 <p className="text-xl font-bold">KEY TO YOUR HOME</p>
@@ -173,7 +173,7 @@ const Projects = () => {
           <Carousel
             autoplay
             loop
-            className="w-72 md:lg:h-[500px] md:lg:w-[1000px] pt-2"
+            className="w-72 pt-10 md:lg:h-[500px] md:lg:w-[1000px] md:lg:pt-2"
             navigation={({ setActiveIndex, activeIndex, length }) => (
               <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (
@@ -194,7 +194,7 @@ const Projects = () => {
           </Carousel>
         </div>
         <div>
-          <div className="font-montserrat  md:lg:flex justify-between px-10  md:lg:px-72  md:lg:pt-20">
+          <div className="font-montserrat  md:lg:flex justify-around px-10  md:lg:px-72  md:lg:pt-20">
             <div className=" md:lg:w-[400px]">
               <div className="pt-6 md:lg:pt-0md:lg:flex md:lg:justify-between md:lg:pb-6">
                 <p className="text-xl font-bold">NEIGHBOR CHEF</p>

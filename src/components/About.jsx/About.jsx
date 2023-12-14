@@ -24,10 +24,10 @@ const About = () => {
             <img
               src={Border}
               alt=""
-              className="rotate_border absolute -mt-56 ml-10 w-[50%]  md:lg:w-[330px] md:lg:-mt-[350px] md:lg:ml-[90px]"
+              className="rotate_border absolute -mt-[232px] ml-4 w-56  md:lg:w-[330px] md:lg:-mt-[350px] md:lg:ml-[90px]"
             />
             {/* bilog sa likod */}
-            <div className="absolute w-20 h-20 -mt-[175px] ml-[92px] md:lg:w-[180px] md:lg:h-[180px] bg-red-600 rounded-full md:lg:-mt-[270px] md:lg:ml-[165px]"></div>
+            <div className="absolute w-24 h-24 -mt-[175px] ml-[85px] md:lg:w-[180px] md:lg:h-[180px] bg-red-600 rounded-full md:lg:-mt-[270px] md:lg:ml-[165px]"></div>
           </div>
           {/* description */}
           <div className="font-montserrat mt-3 pl-8  w-80 md:lg:w-[650px] md:lg:mt-48 md:lg:-ml-20 md:lg:pl-8">
