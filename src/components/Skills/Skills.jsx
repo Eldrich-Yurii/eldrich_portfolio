@@ -16,7 +16,7 @@ const Skills = () => {
         </div>
         <div>
             {/* Cards of skills */}
-        <div className=" mt-5 ml-8 md:lg:absolute md:lg:mt-16 md:lg:ml-24">
+        <div className=" mt-5 ml-10 md:lg:absolute md:lg:mt-16 md:lg:ml-24">
           <div className="grid md:lg:grid-cols-2 gap-4">
             <div
               className=" bg-gray-200 w-72 px-6 py-3 drop-shadow-lg md:lg:px-10 md:lg:p-8 md:lg:w-[480px]"

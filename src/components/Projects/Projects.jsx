@@ -85,7 +85,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className="pb-4 text-justify md:lg:pb-16">
-                <p className="text-sm  md:lg:text-base">
+                <p>
                   A flood monitoring and risk management system specifically for
                   Barangay Panghulo, Obando Bulacan. Developed to help Barangay
                   officials predict possible floods depending on the data
