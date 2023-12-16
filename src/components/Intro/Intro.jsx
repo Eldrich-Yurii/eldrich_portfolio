@@ -16,11 +16,12 @@ const Intro = () => {
         <div id="intro">
           <img src={Logo} alt="Logo" className="pt-3 ml-4 w-14 md:lg:w-16" />
         </div>
+        {/* Main Pic */}
         <div>
         <img
           src={MainPic}
           alt=""
-          className="absolute z-10 bottom-0 right-0  md:lg:right-[59px] md:lg:-bottom-3 md:lg:w-[620px]"
+          className="absolute z-10 bottom-0 right-0  md:lg:right-[59px] md:lg:-bottom-6 md:lg:w-[620px]"
         />
       </div>
        {/* Greeting */}
@@ -38,7 +39,7 @@ const Intro = () => {
        {/* 022 */}
        <div>
         <p
-          className="absolute z-10 -rotate-90 font-antonio text-8xl -bottom-1 -left-3 md:lg:text-[150px] font-bold md:lg:left-[470px] md:lg:-bottom-[18px] drop-shadow-md"
+          className="absolute z-10 -rotate-90 font-antonio text-8xl -bottom-1 -left-3 md:lg:text-[150px] font-bold md:lg:left-[470px] md:lg:-bottom-[1.8rem] drop-shadow-md"
           style={{ color: "#8C8C8C" }}
         >
           022

@@ -110,8 +110,9 @@ const Skills = () => {
             </p>
           </div>
         </div>
+        {/* skills */}
         <p
-          className="absolute invisible md:lg:visible md:lg:text-center md:lg:tracking-wider md:lg:bg-red-600 md:lg:text-[150px] md:lg:font-montserrat md:lg:font-black md:lg:w-[619px] md:lg:-rotate-90 md:lg:mt-[130px] md:lg:ml-[927px]"
+          className="absolute invisible md:lg:visible md:lg:text-center md:lg:tracking-wider md:lg:bg-red-600 md:lg:text-[150px] md:lg:font-montserrat md:lg:font-black md:lg:w-[37.9rem] md:lg:-rotate-90 md:lg:mt-[124px] md:lg:ml-[932px] md:lg:px-2"
           style={{ color: "#c8c7c7" }}
         >
           SKILLS
