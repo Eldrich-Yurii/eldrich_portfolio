@@ -74,7 +74,7 @@ const Details = () => {
             ></div>
           </div>
           {/* description */}
-          <div className="ml-16 md:lg:ml-0 md:lg:pt-48 md:lg:w-[500px]">
+          <div className="ml-16 text-right pr-6 md:lg:ml-0 md:lg:pt-48 md:lg:w-[500px]">
             <div>
               <h1
                 className="pt-4 md:lg:pt-0 md:lg:pb-4 font-bold text-xl md:lg:text-4xl"
