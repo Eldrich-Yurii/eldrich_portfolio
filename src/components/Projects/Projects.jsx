@@ -43,7 +43,7 @@ const data = [
 const Projects = () => {
   return (
     <>
-      <div className=" h-auto md:lg:bg-gray-300 py-20" id="project">
+      <div className=" h-auto bg-gray-300 py-20" id="project">
         <p className=" font-montserrat text-center font-semibold pb-6 text-3xl  md:lg:pb-16 md:lg:text-4xl">
           PROJECT <span style={{ color: "#e73c37" }}>EXPERIENCES</span>
         </p>

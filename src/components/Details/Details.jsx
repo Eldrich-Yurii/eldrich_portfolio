@@ -10,7 +10,7 @@ import { SiGmail } from "react-icons/si";
 const Details = () => {
   return (
     <>
-      <div className="mt-8 h-screen md:lg:bg-gray-300 font-montserrat" id="details">
+      <div className="mt-8 h-screen bg-gray-300 font-montserrat" id="details">
         {/* lets connect and social accounts */}
         <div className="absolute mt-[200px]">
           <div className="flex -ml-24 md:lg:-ml-20 items-center rotate-90 w-[250px]">
@@ -74,7 +74,7 @@ const Details = () => {
             ></div>
           </div>
           {/* description */}
-          <div className="ml-16 text-right pr-6 md:lg:ml-0 md:lg:pt-48 md:lg:w-[500px]">
+          <div className="ml-16 text-right pr-6 md:lg:text-left md:lg:ml-0 md:lg:pt-36 md:lg:w-[500px]">
             <div>
               <h1
                 className="pt-4 md:lg:pt-0 md:lg:pb-4 font-bold text-xl md:lg:text-4xl"
