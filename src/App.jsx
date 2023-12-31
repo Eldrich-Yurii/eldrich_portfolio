@@ -6,12 +6,13 @@ import Projects from './components/Projects/Projects'
 import Education from './components/Education/Education'
 import Details from './components/Details/Details'
 import Footer from './components/Footer/Footer'
-
+import Sign from './components/Sign/Sign'
 function App() {
 
   return (
     <>
       <div className='bg'>
+        <Sign />
         <Intro />
         <About />
         <Skills />

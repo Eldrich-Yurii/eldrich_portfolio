@@ -1,9 +1,7 @@
 import React from "react";
 import Pic from "./assets/ABOUT-PIC.webp";
 import Border from "./assets/Border1.webp";
-import Logo from "./assets/eldrich+logo_RED.webp";
 import "./About.css";
-import { BiPlusMedical } from "react-icons/bi";
 
 const About = () => {
   return (
@@ -37,7 +35,7 @@ const About = () => {
               </h1>
             </div>
             <div>
-              <p className="font-semibold text-md text-justify   md:lg:text-2xl md:lg:leading-10 md:lg:font-medium">
+              <p className="font-semibold text-md text-justify md:lg:text-2xl md:lg:leading-10 md:lg:font-medium">
                 A web developer with creativity, independence, and adaptability.
                 skilled in a variety of technologies, including HTML, CSS,
                 JavaScript, Node.js, Laravel, and MySQL. I am also skilled in

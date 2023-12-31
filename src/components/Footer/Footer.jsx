@@ -114,7 +114,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p className="flex justify-center pb-8">
+        <p className="flex justify-center pb-10">
           &copy; Copyright 2023 | Eldrich &bull; Portfolio / CV | All Rights
           Reserved.
         </p>
