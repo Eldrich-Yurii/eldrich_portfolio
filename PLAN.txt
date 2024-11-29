@@ -1,0 +1,14 @@
+change icon
+add page folder
+change assets
+change picture
+change layout 
+change gray to white
+change structure
+add routers
+make it interactive
+make more personalize 
+
+
+
+Add projects
