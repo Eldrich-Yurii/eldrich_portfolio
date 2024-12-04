@@ -1,17 +1,13 @@
-import './App.css'
-import Intro from './components/Intro/Intro'
-import Footer from './components/Footer/Footer'
-function App() {
+import Navbar from './includes/pages/main/Navbar/Navbar'
 
-  return (
-    <>
-      <div className='bg'>
-       
-        <Intro />
-        <Footer />
+ function App(){
+    return (
+      <div>
+        <Navbar/>
       </div>
-    </>
-  )
-}
+    )
+} 
+  
+
 
 export default App
