@@ -1,4 +1,3 @@
-import React from "react";
 import "./Intro.css";
 import MainPic from "./assets/MAIN_PIC.webp";
 import Logo from "./assets/eldrich+logo_RED.webp";
@@ -69,30 +68,30 @@ const Intro = () => {
        <div className="flex justify-end mt-[240px] mr-9 lg:md:mt-48">
         <div className="md:lg:-mt-[220px] md:lg:mr-10">
           <div className="absolute z-10 right-3">
-            <a href="https://www.facebook.com/eldrich.jyuri.sumabat.22" target="_blank">
+            <a href="https://www.facebook.com/eldrich.jyuri.sumabat.22" target="_blank" rel="noreferrer" >
               <FaFacebookSquare
                 className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800"
                 // 
               />
             </a>
-            <a href="https://instagram.com/dricht_?igshid=MzMyNGUyNmU2YQ==" target="_blank">
+            <a href="https://instagram.com/dricht_?igshid=MzMyNGUyNmU2YQ==" target="_blank" rel="noreferrer">
               <AiFillInstagram
                 className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800"
                 
               />
             </a>
-            <a href="https://www.linkedin.com/in/eldrich-jyuri-sumabat" target="_blank">
+            <a href="https://www.linkedin.com/in/eldrich-jyuri-sumabat" target="_blank" rel="noreferrer">
               <FaLinkedin
                 className="text-2xl mb-3 md:lg:mb-4 text-red-600  hover:text-gray-800"
               />
             </a>
-            <a href="https://github.com/Eldrich-Yurii" target="_blank">
+            <a href="https://github.com/Eldrich-Yurii" target="_blank" rel="noreferrer">
               <FaGithubSquare
                 className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800"
                 // 
               />
             </a>
-            <a href="mailto:eldrichjyuris@gmail.com" target="_blank">
+            <a href="mailto:eldrichjyuris@gmail.com" target="_blank" rel="noreferrer">
               <SiGmail className="text-2xl mb-3 md:lg:mb-4 md:lg:text-2xl text-red-600 hover:text-gray-800" 
               //  
               />
@@ -104,7 +103,7 @@ const Intro = () => {
               style={{ background: "#282828" }}
             ></div>
             <p className="absolute -top-1 -right-[310px] text-sm md:lg:text-base md:lg:mt-11 md:lg:ml-24 w-48 font-montserrat font-bold text-gray-800">
-              L E T ' S&nbsp;&nbsp;C O N N E C T
+              L E T &apos; S&nbsp;&nbsp;C O N N E C T
             </p>
           </div>
         </div>

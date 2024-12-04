@@ -1,6 +1,4 @@
-import React from "react";
 import Logo from "./assets/eldrich+logo_RED.webp";
-import { BiPlusMedical } from "react-icons/bi";
 import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
@@ -32,12 +30,12 @@ const Footer = () => {
         {/* LETS CONNECT */}
         <div className="w-56 pt-1 ">
           <div>
-            <h1 className="text-2xl font-semibold pb-10">LET'S CONNECT!</h1>
+            <h1 className="text-2xl font-semibold pb-10">LET&apos;S CONNECT!</h1>
           </div>
           <div>
             <p className="font-medium">
-              Have a project idea? Let's collaborate. Send an email or drop a
-              message through my social accounts. Let's connect.
+              Have a project idea? Let&apos;s collaborate. Send an email or drop a
+              message through my social accounts. Let&apos;s connect.
             </p>
           </div>
           <div className="flex justify-between mt-6 mb-11 md:lg:mb-0">
