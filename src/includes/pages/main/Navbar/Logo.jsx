@@ -1,10 +1,10 @@
-import Logo from './Asset/logo-yuri.png'
+import Yuri from './Asset/logo-yuri.png'
 import './Navbar.css'
 
-export default function Intro() {
+export default function Logo() {
     return(
         <>
-            <img className='logo' src={Logo} alt="logo" />
+            <img className='logo' src={Yuri} alt="logo" />
         </>
     )
 }
