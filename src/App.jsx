@@ -1,4 +1,4 @@
-import Navbar from './includes/pages/main/Navbar/Navbar'
+import Navbar from './includes/pages/main/Navbar/Navigation'
 import Intro from './includes/pages/main/Intro/Intro'
 
  function App(){

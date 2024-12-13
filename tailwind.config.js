@@ -1,4 +1,5 @@
 const withMT = require("@material-tailwind/react/utils/withMT");
+const { space } = require("postcss/lib/list");
  
 module.exports = withMT({
   content: [
@@ -9,7 +10,8 @@ module.exports = withMT({
     extend: {},
     fontFamily: {
       antonio: ["Antonio"],
-      montserrat: ["Montserrat"]
+      montserrat: ["Montserrat"],
+      spaceMono: ["Space Mono"]
     },
     Text: {
       fontHover: "#e73c37"
