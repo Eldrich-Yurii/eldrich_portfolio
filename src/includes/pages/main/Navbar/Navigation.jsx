@@ -23,7 +23,7 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-bold hover:text-red-600"
       >
         <a href="#" className="flex items-center">
           About
@@ -33,7 +33,17 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-bold hover:text-red-600"
+      >
+        <a href="#" className="flex items-center">
+          Skills
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-bold hover:text-red-600"
       >
         <a href="#" className="flex items-center">
           Projects
@@ -44,7 +54,7 @@ export default function Navigation() {
  
   return (
     <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-8 pt-10">
+      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-8 pt-10 lg:px-12">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -58,7 +68,8 @@ export default function Navigation() {
             <div>
               <Button
                 size="sm"
-                className="hidden lg:inline-block bg-red-700"
+                variant="outlined"
+                className="hidden lg:inline-block border-red-700 border-2 text-red-700"
               >
                 <span>Download CV</span>
               </Button>
