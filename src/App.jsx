@@ -1,11 +1,14 @@
-import Navbar from './includes/pages/main/Navbar/Navigation'
-import Intro from './includes/pages/main/Intro/Intro'
+import Navbar from './pages/main/Navbar/Navigation';
+import Intro from './pages/main/Intro/Intro'
+import Sparkles from './pages/main/Sparkle/Sparkles'
+
 
  function App(){
     return (
       <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Intro/>
+        {/* <Sparkles/> */}
       </div>
     )
 } 

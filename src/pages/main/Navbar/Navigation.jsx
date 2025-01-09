@@ -1,10 +1,10 @@
 import React from "react";
 import {
   Navbar,
-  MobileNav,
   Typography,
   Button,
   IconButton,
+  Collapse,
 } from "@material-tailwind/react";
  
 export default function Navigation() {
@@ -23,7 +23,7 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-bold hover:text-red-600"
+        className="p-1 font-bold hover:text-red-600 text-white"
       >
         <a href="#" className="flex items-center">
           About
@@ -33,7 +33,7 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-bold hover:text-red-600"
+        className="p-1 font-bold hover:text-red-600 text-white"
       >
         <a href="#" className="flex items-center">
           Skills
@@ -43,7 +43,7 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-bold hover:text-red-600"
+        className="p-1 font-bold hover:text-red-600 text-white"
       >
         <a href="#" className="flex items-center">
           Projects
@@ -54,7 +54,7 @@ export default function Navigation() {
  
   return (
     <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-8 pt-10 lg:px-12">
+      <Navbar className="fixed z-10  max-w-full bg-black bg-opacity-100 border-none rounded-none px-8 pt-10 lg:px-12">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -69,9 +69,9 @@ export default function Navigation() {
               <Button
                 size="sm"
                 variant="outlined"
-                className="hidden lg:inline-block border-red-700 border-2 text-red-700"
+                className="hidden lg:inline-block border-2 text-white border-white hover:border-red-700 hover:text-red-700"
               >
-                <span>Download CV</span>
+                <span><a href="src/assets/RESUME-EldrichJyuriSumabatTorcuator.pdf" target="_blank" rel="noopener noreferrer" download>Download CV</a></span>
               </Button>
             </div>
             <IconButton
@@ -113,14 +113,14 @@ export default function Navigation() {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
+        <Collapse open={openNav}>
           {navList}
           <div className="">
             <Button fullWidth size="sm" className="">
               <span>Donwload CV</span>
             </Button>
           </div>
-        </MobileNav>
+        </Collapse>
       </Navbar>
 
     </div>
