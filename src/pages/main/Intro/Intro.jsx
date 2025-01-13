@@ -3,8 +3,9 @@ import DOMPurify from 'dompurify';
 import { Tabs, TabsHeader, TabsBody, Tab, TabPanel } from "@material-tailwind/react";
 import { SparklesCore } from "../../../components/ui/sparkles/SparklesCore";
 import Navbar from '../Navbar/Navigation'
+import Socmed from "./socmed";
 import './Intro.css';
-import { div } from "framer-motion/client";
+
 
 
 export default function Intro() {
@@ -14,7 +15,7 @@ export default function Intro() {
         label: "For Anyone",
         value: "foranyone",
         desc: `Hi, I'm Eldrich Jyuri S. Torcuator, a junior web developer eager to grow and contribute to the tech world. 
-              I'm <span class="hover:text-red-600 font-extrabold">passionate</span> about coding, <span class="hover:text-red-600 font-extrabold">problem-solving,</span> and <span class="hover:text-red-600 font-extrabold">creating impactful</span> digital experiences.
+              I'm <span class="text-gray-800 hover:text-red-600 font-extrabold">passionate</span> about coding, <span class="text-gray-800 hover:text-red-600 font-extrabold">problem-solving,</span> and <span class="text-gray-800 hover:text-red-600 font-extrabold">creating impactful</span> digital experiences.
               `
               // <br/> 
               // <br/> 
@@ -25,8 +26,8 @@ export default function Intro() {
         value: "recruiter",
         desc: `Hello! I'm Eldrich Jyuri S. Torcuator, a passionate and 
               detail-oriented junior web developer. 
-              A BSIT <del class="hover:text-red-600 font-bold">student</del> graduate. I am adaptable and eager to learn new things
-              to contribute creating <span class="hover:text-red-600 font-extrabold">seamless, user-friendly</span> web experiences. 
+              A BSIT <del class="text-gray-800 hover:text-red-600 font-bold">student</del> graduate. I am adaptable and eager to learn new things
+              to contribute creating <span class="text-gray-800 hover:text-red-600 font-extrabold">seamless, user-friendly</span> web experiences. 
               `
               // <br/> 
               // <br/> 
@@ -36,8 +37,8 @@ export default function Intro() {
         label: "Project Manager",
         value: "ProjManager",
         desc: `Hello!
-              I'm Eldrich Jyuri S. Torcuator, a junior web developer with a <span class="hover:text-red-600 font-extrabold">keen eye for detail</span> and a passion for delivering <span class="hover:text-red-600 font-extrabold">high-quality, efficient web solutions</span>.
-              I understand the importance of <span class="hover:text-red-600 font-extrabold">collaboration, meeting deadlines,</span> and <span class="hover:text-red-600 font-extrabold">aligning technical development</span> with <span class="hover:text-red-600 font-extrabold">business goals.</span>
+              I'm Eldrich Jyuri S. Torcuator, a junior web developer with a <span class="text-gray-800 hover:text-red-600 font-extrabold">keen eye for detail</span> and a passion for delivering <span class="text-gray-800 hover:text-red-600 font-extrabold">high-quality, efficient web solutions</span>.
+              I understand the importance of collaboration, meeting deadlines, and aligning technical development with business goals.
               `
               // <br/>
               // <br/>
@@ -48,8 +49,8 @@ export default function Intro() {
         value: "developer",
         desc: `Hey there!
               I'm Eldrich Jyuri S. Torcuator, a junior web developer with passion for crafting clean and intuitive web applications. 
-              As someone who thrives on <span class="hover:text-red-600 font-extrabold">collaboration</span> && <span class="hover:text-red-600 font-extrabold">continuous learning,</span> 
-              I'm excited to connect with like-minded developers and contribute to <span class="hover:text-red-600 font-extrabold">impactful projects++.</span> 
+              As someone who thrives on <span class="text-gray-800 hover:text-red-600 font-extrabold">collaboration</span> && <span class="text-gray-800 hover:text-red-600 font-extrabold">continuous learning,</span> 
+              I'm excited to connect with like-minded developers and contribute to <span class="text-gray-800 hover:text-red-600 font-extrabold">impactful projects++.</span> 
               `
               // <br/> 
               // <br/> 
@@ -58,9 +59,9 @@ export default function Intro() {
       {
         label: "Client",
         value: "client",
-        desc: `Hi there! I'm Eldrich Jyuri S. Torcuator, a junior web developer dedicated to creating websites and applications that <span class="hover:text-red-600 font-extrabold">solve real problems.</span> 
+        desc: `Hi there! I'm Eldrich Jyuri S. Torcuator, a junior web developer dedicated to creating websites and applications that <span class="text-gray-800 hover:text-red-600 font-extrabold">solve real problems.</span> 
               Whether it's designing a seamless user experience or optimizing performance, 
-              I'm here to <span class="hover:text-red-600 font-extrabold">bring your ideas to life.</span>
+              I'm here to <span class="text-gray-800 hover:text-red-600 font-extrabold">bring your ideas to life.</span>
               `,
               // <br/> 
               // <br/> 
@@ -68,7 +69,7 @@ export default function Intro() {
       },
     ];
     return (
-      <div className="bg-black">
+      <div className="bg-gray-300">
       <Navbar />
         <div className="w-full absolute h-screen">
           <SparklesCore
@@ -78,12 +79,12 @@ export default function Intro() {
             maxSize={2.4}
             particleDensity={500}
             className="w-full h-full"
-            particleColor="#ffffff"
-            // #AA4A44
+            particleColor="#AA4A44"
+            //
             />
         </div>
-        <div className="h-screen lg:pt-44">
-          <div className="pl-3 w-8/12">
+        <div className="h-screen lg:pt-24">
+          <div className="pl-6 w-8/12">
               <Tabs value={activeTab}>
                   <TabsHeader
                   className="rounded-none bg-transparent"
@@ -105,16 +106,19 @@ export default function Intro() {
                   </TabsHeader>
                   <TabsBody>
                   {data.map(({ value, desc }) => (
-                    <TabPanel key={value} value={value} className="text-4xl p-3  text-white font-montserrat font-medium" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(desc) }}>
+                    <TabPanel key={value} value={value} className="text-4xl p-3  text-gray-800 font-montserrat font-medium" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(desc) }}>
                     </TabPanel>
                   ))}
                   </TabsBody>
               </Tabs>
           </div>
-          <section className="absolute bottom-10 w-full flex justify-between px-10">
-            <span className="text-white font-montserrat">Why do people do what they&apos;re doing?</span>
-            <span className="text-white font-montserrat">I&apos;d love to connect!</span>
-          </section>
+           
+          <Socmed />
+
+          <div className="absolute bottom-10 w-full flex justify-between px-10">
+            <span className="text-gray-600 font-montserrat font-semibold">Why do people do what they&apos;re doing?</span>
+            <span className="text-gray-600 font-montserrat font-semibold">I&apos;d love to connect!</span>
+          </div>
       </div>
       </div>
         
