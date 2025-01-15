@@ -23,7 +23,7 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-bold hover:text-red-600 text-gray-800"
+        className="p-1 font-bold hover:text-red-600 text-gray-700"
       >
         <a href="#" className="flex items-center">
           About
@@ -33,7 +33,7 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-bold hover:text-red-600 text-gray-800"
+        className="p-1 font-bold hover:text-red-600 text-gray-700"
       >
         <a href="#" className="flex items-center">
           Skills
@@ -43,7 +43,7 @@ export default function Navigation() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-bold hover:text-red-600 text-gray-800"
+        className="p-1 font-bold hover:text-red-600 text-gray-700"
       >
         <a href="#" className="flex items-center">
           Projects
@@ -54,7 +54,7 @@ export default function Navigation() {
  
   return (
     <div className="-m-6 max-h-[768px] w-[calc(100%+48px)]">
-      <Navbar className="sticky z-10  max-w-full bg-gray-200 bg-opacity-100 border-none rounded-none px-8 pt-10 lg:px-12">
+      <Navbar className="sticky z-10  max-w-full bg-gray-300 bg-opacity-100 border-none rounded-none px-8 pt-10 lg:px-12">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
