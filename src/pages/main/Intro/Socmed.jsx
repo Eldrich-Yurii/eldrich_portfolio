@@ -5,16 +5,16 @@ export default function Socmed() {
     return(
         <div className="absolute right-7 top-52 flex gap-8 flex-col">
             <a href="">
-                  <FaSquareFacebook className="text-xl text-red-600"/>
+                  <FaSquareFacebook className="text-xl text-red-500"/>
                 </a>
                 <a href="">
-                  <FaInstagram className="text-xl text-red-600"/>
+                  <FaInstagram className="text-xl text-red-500"/>
                 </a>
                 <a href="">
-                  <FaLinkedin className="text-xl text-red-600"/>
+                  <FaLinkedin className="text-xl text-red-500"/>
                 </a>
                 <a href="">
-                  <FaGithub className="text-xl text-red-600"/>
+                  <FaGithub className="text-xl text-red-500"/>
                 </a>
         </div>
     )
